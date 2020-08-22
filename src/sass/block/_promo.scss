@@ -25,12 +25,12 @@
     }
     &__icons {
         margin-top: 66px;
-        width: 425px;
+        max-width: 425px;
         display: flex;
         justify-content: space-between;
     }
     &__icon {
-        width: 106px;
+        max-width: 106px;
         display: flex;
         flex-direction: column;
         text-align: center;

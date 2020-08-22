@@ -11,7 +11,7 @@
     &__items {
         display: flex;
         justify-content: space-between;
-        width: 935px;
+        max-width: 935px;
         align-items: center;
     }
     &__item {

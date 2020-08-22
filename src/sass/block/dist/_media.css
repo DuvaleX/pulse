@@ -1,0 +1,74 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 5% 93px 5%;
+  }
+  .promo__wrapper {
+    align-items: center;
+  }
+
+  .options {
+    padding: 70px 2% 75px 2%;
+  }
+}
+@media (max-width: 767px) {
+  .promo .header__official {
+    display: none;
+  }
+  .promo__header {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .promo__subheader {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .options__items {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 575px) {
+  .promo .header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .promo .header__contacts {
+    margin-top: 10px;
+    flex-direction: row;
+    align-items: center;
+  }
+  .promo .header__phone {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+  .promo__wrapper {
+    margin-top: 51px;
+  }
+  .promo__header {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .promo__subheader {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+  }
+  .promo__icon {
+    font-size: 10px;
+  }
+  .promo__link {
+    font-size: 14px;
+  }
+
+  .button {
+    width: 130px;
+    height: 25px;
+  }
+  .button_main {
+    width: 215px;
+    height: 30px;
+    font-size: 14px;
+  }
+}
