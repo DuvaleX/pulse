@@ -1,0 +1,29 @@
+.options {
+  min-height: 470px;
+  padding: 70px 0 75px 0;
+  background-color: #f6f6f6;
+}
+.options__title {
+  color: #0d0d0d;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+.options__items {
+  display: flex;
+  justify-content: space-between;
+  width: 935px;
+  align-items: center;
+}
+.options__item {
+  text-align: center;
+  width: 255px;
+}
+.options__item a {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.options img {
+  display: block;
+  margin: 0 auto;
+}
