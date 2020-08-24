@@ -9,15 +9,11 @@
 @import 'block/buttons';
 @import 'block/options';
 @import 'block/media';
+@import 'block/titles';
+@import 'block/consultation';
+@import 'block/forms';
 
 .container {
     max-width: 950px;
     margin: 0 auto;
-}
-
-.title {
-    color: #0d0d0d;
-    font-size: 30px;
-    font-weight: 700;
-    text-align: center;
 }

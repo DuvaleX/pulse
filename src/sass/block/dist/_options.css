@@ -1,0 +1,36 @@
+.options {
+  min-height: 470px;
+  padding: 70px 0 75px 0;
+  background-color: #f6f6f6;
+}
+.options__items {
+  display: flex;
+  justify-content: space-between;
+  max-width: 935px;
+  align-items: center;
+}
+.options__item {
+  text-align: center;
+  width: 230px;
+}
+.options__item a {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.options__subtitle {
+  margin-top: 38px;
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+}
+.options__descr {
+  margin-top: 26px;
+  color: #0d0d0d;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 300;
+}
+.options img {
+  display: block;
+  margin: 0 auto;
+}
