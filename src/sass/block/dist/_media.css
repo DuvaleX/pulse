@@ -50,6 +50,24 @@
     width: 100%;
     height: 55px;
   }
+
+  .carousel .carousel__inner img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .carousel .slick-dots {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .carousel .slick-dots button {
+    margin-right: 3px;
+    background-color: bisque;
+  }
+  .carousel .slick-dots .slick-active button {
+    background-color: greenyellow;
+  }
 }
 @media (max-width: 575px) {
   .promo .header {
