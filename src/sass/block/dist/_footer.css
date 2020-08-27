@@ -1,0 +1,9 @@
+.footer {
+  min-height: 830px;
+  position: relative;
+}
+.footer__info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}

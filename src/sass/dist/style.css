@@ -186,6 +186,26 @@
   .consultation .feed-form {
     margin: 20px auto 0 auto;
   }
+
+  .catalog .catalog-item {
+    margin: 0 auto 20px auto;
+  }
+
+  .reviews .reviews__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews .reviews__name {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .reviews .reviews__subtitle {
+    text-align: center;
+  }
+  .reviews .reviews__descr {
+    padding: 0 3%;
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   .promo .header__official {
@@ -229,10 +249,13 @@
   }
   .carousel .slick-dots button {
     margin-right: 3px;
-    background-color: bisque;
+    background-color: #fff;
   }
   .carousel .slick-dots .slick-active button {
-    background-color: greenyellow;
+    background-color: #c70101;
+  }
+  .carousel .slick-dots .slick-active button:hover {
+    background-color: #c70101;
   }
 }
 @media (max-width: 575px) {
@@ -287,6 +310,24 @@
   }
   .consultation .feed-form {
     width: 90%;
+  }
+
+  .catalog .title {
+    font-size: 25px;
+  }
+  .catalog .catalog__tab {
+    width: 100px;
+    font-size: 10px;
+  }
+  .catalog .catalog-item {
+    margin: 10px auto;
+  }
+
+  .reviews .title {
+    font-size: 25px;
+  }
+  .reviews .reviews__descr {
+    font-size: 14px;
   }
 }
 .title {
@@ -535,6 +576,57 @@
 }
 .catalog-item__back:hover {
   color: #c70101;
+}
+
+.reviews {
+  padding-bottom: 21px;
+}
+.reviews__content {
+  max-width: 890px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.reviews__img {
+  width: 169px;
+  height: 169px;
+  border-radius: 100%;
+}
+.reviews__name {
+  margin-bottom: 10px;
+  color: #0d0d0d;
+  font-size: 18px;
+  font-weight: 700;
+}
+.reviews__subtitle {
+  margin-bottom: 19px;
+  color: #646464;
+  font-size: 14px;
+  font-weight: 300;
+}
+.reviews__descr {
+  max-width: 650px;
+  color: #0d0d0d;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 300;
+}
+
+.footer {
+  min-height: 830px;
+  position: relative;
+}
+.footer__info {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 460px;
+  height: 270px;
+  background-color: #c70101;
 }
 
 .container {
