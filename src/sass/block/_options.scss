@@ -29,8 +29,15 @@
         line-height: 14px;
         font-weight: 300;
     }
-    img {
+    &__icon {
         display: block;
         margin: 0 auto;
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.5s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+
+        }
     }
 }
